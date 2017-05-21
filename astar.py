@@ -7,7 +7,7 @@
 import math
 
 from pathfinder import *
-from ../utils/trajectory import *
+from trajectory import *
 
 class Astar(Pathfinder):
     __w = 3000

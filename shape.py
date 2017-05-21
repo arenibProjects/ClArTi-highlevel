@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import abc
-from ../utils/position import *
+from position import *
 
 class Shape(object, metaclass=abc.ABCMeta):
     _protectionRadius = 5 # default : in mm
